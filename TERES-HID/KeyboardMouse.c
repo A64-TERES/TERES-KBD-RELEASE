@@ -840,7 +840,7 @@ ISR(ADC_vect)
 				if (button < 0xe8)
 						{
    
-							if (button>0x94) mouse = MOUSE_RIGTH;
+							if (button>0xa0) mouse = MOUSE_RIGTH;
         
 								else if (button>0x78)  mouse = MOUSE_LEFT;
 
